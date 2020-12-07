@@ -46,7 +46,9 @@ const App = () => {
           <IntroContent>
             <Text>
               <p>
-                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen das Grundprinzip der Funktionsweise von Maschinellem Lernen und Neuronen Netzen. Zum anderen wie ein Teil von Human Resources Software heutzutage funktioniert. Das "HR Puzzle" ist Teil des Dossiers von AlgorithmWatch zur "Automatisierung im Personalmangment und Mitbestimmung."
+                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen die Funktionsweise von Machine Learning und Neuronalen Netzen;
+                zum anderen, wie viele Angebote von Personalmanagement Software heutzutage funktionieren. Das HR Puzzle ist Teil des Dossiers von AlgorithmWatch zu 
+                „<a href="https://algorithmwatch.org/project/auto-hr/" target="blank">Automatisiertem Personalmanagement und Mitbestimmung</a>“.
               </p>
 
               <p>
@@ -56,7 +58,11 @@ const App = () => {
               </p>
 
               <p>
-                Erfahren Sie mehr zum Hintergrund über den Menüpunkt „Info“. Unter "Experimentieren" können Sie das Neuronale Netz ohne Zeitdruck bearbeiten. Oder beginnen Sie mit "Puzzle starten" und lösen Sie in wenigen Minuten drei Aufgaben.
+                In dem Spiel müssen Sie verschiedene Parameter in einem Neuronalen Netz justieren und für unsere 100 Mitarbeiter*innen optimieren: Wer sollte befördert werden? Wer beabsichtigt zu kündigen? Wen kann man entlassen?
+              </p>
+
+              <p>
+                Erfahren Sie mehr zum Hintergrund über den Menüpunkt „Info“. Unter „Experimentieren“ können Sie das Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene Szenarien modellieren. Oder beginnen Sie mit „Puzzle starten“ und lösen Sie in wenigen Minuten drei Aufgaben.
               </p>
             </Text>
             <Link to="/game">
