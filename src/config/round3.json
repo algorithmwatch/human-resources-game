@@ -1,0 +1,236 @@
+{
+  "threshold": 0.4,
+  "min": 0,
+  "max": 0.5,
+  "layers": [
+    {
+      "nodes": [
+        {
+          "name": "layer1__node2",
+          "propertyName": "Ausbildung",
+          "edges": [
+            {
+              "weight": 0.83,
+              "active": false
+            },
+            {
+              "weight": -0.9,
+              "active": false
+            },
+            {
+              "weight": -0.02,
+              "active": false
+            }
+          ],
+          "x": 0,
+          "y": 0,
+          "r": 12.771666666666668,
+          "id": "0__0",
+          "layer": 0,
+          "index": 0,
+          "value": 0.8
+        },
+        {
+          "name": "layer1__node4",
+          "propertyName": "Betriebszugehörigkeit",
+          "edges": [
+            {
+              "weight": -0.47,
+              "active": false
+            },
+            {
+              "weight": -0.95,
+              "active": true
+            },
+            {
+              "weight": -0.1,
+              "active": false
+            }
+          ],
+          "x": 0,
+          "y": 105,
+          "r": 15.531666666666666,
+          "id": "0__1",
+          "layer": 0,
+          "index": 1,
+          "value": 0.2
+        },
+        {
+          "name": "layer1__node5",
+          "propertyName": "Letzte Gehaltserhöhung",
+          "edges": [
+            {
+              "weight": 0.55,
+              "active": false
+            },
+            {
+              "weight": -0.33,
+              "active": false
+            },
+            {
+              "weight": 0.45,
+              "active": true
+            }
+          ],
+          "x": 0,
+          "y": 210,
+          "r": 16.068333333333335,
+          "id": "0__2",
+          "layer": 0,
+          "index": 2,
+          "value": 0.092
+        },
+        {
+          "name": "layer1__node6",
+          "propertyName": "Überstunden",
+          "edges": [
+            {
+              "weight": -0.3,
+              "active": false
+            },
+            {
+              "weight": -0.66,
+              "active": true
+            },
+            {
+              "weight": 0.14,
+              "active": false
+            }
+          ],
+          "x": 0,
+          "y": 315,
+          "r": 10.356666666666667,
+          "id": "0__3",
+          "layer": 0,
+          "index": 3,
+          "value": -0.351
+        },
+        {
+          "name": "layer1__node7",
+          "propertyName": "Aktivität im Firmen-Intranet",
+          "edges": [
+            {
+              "weight": 0.49,
+              "active": true
+            },
+            {
+              "weight": -0.13,
+              "active": false
+            },
+            {
+              "weight": -1,
+              "active": true
+            }
+          ],
+          "x": 0,
+          "y": 420,
+          "r": 11.046666666666665,
+          "id": "0__4",
+          "layer": 0,
+          "index": 4,
+          "value": 0.48
+        }
+      ]
+    },
+    {
+      "nodes": [
+        {
+          "name": "layer2__node1",
+          "edges": [
+            {
+              "weight": 0.97,
+              "active": false
+            },
+            {
+              "weight": 0.12,
+              "active": false
+            }
+          ],
+          "x": 460,
+          "y": 105,
+          "r": 16.670714285714286,
+          "id": "1__0",
+          "layer": 1,
+          "index": 0,
+          "value": 0.9611
+        },
+        {
+          "name": "layer2__node2",
+          "edges": [
+            {
+              "weight": 0.67,
+              "active": false
+            },
+            {
+              "weight": 0.44,
+              "active": true
+            }
+          ],
+          "x": 460,
+          "y": 210,
+          "r": 12.990714285714285,
+          "id": "1__1",
+          "layer": 1,
+          "index": 1,
+          "value": -0.5611000000000002
+        },
+        {
+          "name": "layer2__node3",
+          "edges": [
+            {
+              "weight": 0.55,
+              "active": false
+            },
+            {
+              "weight": -0.36,
+              "active": true
+            }
+          ],
+          "x": 460,
+          "y": 315,
+          "r": 13.927142857142856,
+          "id": "1__2",
+          "layer": 1,
+          "index": 2,
+          "value": -0.40374
+        }
+      ]
+    },
+    {
+      "nodes": [
+        {
+          "name": "layer3__node1",
+          "edges": [
+            {
+              "weight": 0.83,
+              "active": false
+            }
+          ],
+          "x": 920,
+          "y": 157.5,
+          "r": 20.86,
+          "id": "2__0",
+          "layer": 2,
+          "index": 0,
+          "value": -0.10783300000000018
+        },
+        {
+          "name": "layer3__node2",
+          "edges": [
+            {
+              "weight": 0.81,
+              "active": false
+            }
+          ],
+          "x": 920,
+          "y": 262.5,
+          "r": 17.55375,
+          "id": "2__1",
+          "layer": 2,
+          "index": 1,
+          "value": 0.09379439999999989
+        }
+      ]
+    }
+  ]
+}
