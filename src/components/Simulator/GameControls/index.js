@@ -56,12 +56,12 @@ const GameControls = () => {
       />
       {showStartButton && (
         <FullWidthButton onClick={() => startSimulation()}>
-          Starten
+          Start
         </FullWidthButton>
       )}
       {showResultButton && (
         <FullWidthButton onClick={() => setResultVisible(true)}>
-          Zur Auswertung
+          Evaluation
         </FullWidthButton>
       )}
     </Controls>

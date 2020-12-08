@@ -27,7 +27,7 @@ function getBubbleColor(d) {
 
 const chartConfigs = {
   age: {
-    title: 'Alter',
+    title: 'Age',
     groups: ['nivo_position'],
     value: 'Age',
     layout: 'horizontal',
@@ -38,15 +38,15 @@ const chartConfigs = {
     },
   },
   gender: {
-    title: 'Geschlecht',
+    title: 'Gender',
     groupBy: 'Geschlecht',
-    groups: ['weiblich', 'männlich'],
+    groups: ['female', 'male'],
     value: 'nivo_position',
   },
   education: {
-    title: 'Bildung',
+    title: 'Education',
     groupBy: 'Ausbildung_cat',
-    groups: ['Hochschulabs.', 'Abitur', 'Ausbildung', 'Mittlere Reife'],
+    groups: ['College degree', 'A-levels', 'Apprenticeship', 'O-levels'],
     value: 'nivo_position',
   },
 };

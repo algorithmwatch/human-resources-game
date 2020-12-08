@@ -43,7 +43,7 @@ const Timer = ({ time, onFinish = () => {}, isRunning }) => {
 
   return (
     <TimerWrapper justifyContent="space-between" alignItems="center">
-      <TimeLabel>{currentTime} Sek</TimeLabel>
+      <TimeLabel>{currentTime} sec</TimeLabel>
       <Piechart duration={time} isRunning={isRunning} />
     </TimerWrapper>
   );

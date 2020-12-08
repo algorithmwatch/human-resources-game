@@ -48,13 +48,13 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <div>
-        <StyledLink href="https://algorithmwatch.org/impressum" target="_blank">
-          Impressum
+        <StyledLink href="https://algorithmwatch.org/en/legal-notice/" target="_blank">
+          Legal notice
         </StyledLink>
       </div>
       <HBSWrapper>
-        gefördert durch
-        <HBSLogoLink href="https://www.boeckler.de/de/index.htm">
+        funded by
+        <HBSLogoLink href="https://www.boeckler.de/en/index.htm">
           <img width="120" src={HBSLogo} />
         </HBSLogoLink>
       </HBSWrapper>

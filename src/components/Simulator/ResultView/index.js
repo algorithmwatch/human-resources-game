@@ -20,7 +20,7 @@ const ResultView = () => {
   const hasNextRound = useStoreState((state) => state.simulation.hasNextRound);
   const roundConfig = useStoreState((state) => state.simulation.roundConfig);
 
-  const buttonLabel = hasNextRound ? 'nächste Runde' : 'Spiel neu starten';
+  const buttonLabel = hasNextRound ? 'next Round' : 'Start new game';
 
   return (
     <div>

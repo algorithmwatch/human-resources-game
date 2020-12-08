@@ -27,22 +27,22 @@ export const getContent = (data) => {
   return (
     <Wrapper className="react-tooltip">
       <TooltipItem>Name: {d.Name}</TooltipItem>
-      <TooltipItem>Alter: {d.Age} Jahre</TooltipItem>
-      <TooltipItem>Abschluss: {d.Ausbildung_cat}</TooltipItem>
+      <TooltipItem>Age: {d.Age} years</TooltipItem>
+      <TooltipItem>Degree: {d.Ausbildung_cat}</TooltipItem>
       <TooltipItem>
-        Betriebszugehörigkeit: {d.Betriebszugehoerigkeit_jahre} Jahre
+        Duration of Employment: {d.Betriebszugehoerigkeit_jahre} years
       </TooltipItem>
       <TooltipItem>
-        Gehaltserhöhung: Vor {d.Letzte_Gehaltserhoehung} Monaten
+        Last raise: {d.Letzte_Gehaltserhoehung} months ago
       </TooltipItem>
       <TooltipItem>
-        Beförderung: Vor {d.Letzte_Befoerderung} Monaten
+        Last promotion: {d.Letzte_Befoerderung} months agoo
       </TooltipItem>
       <TooltipItem>
-        Intranet-Aktivität: {d.Aktivitaetsindex} (maximal 10)
+        Intranet activity: {d.Aktivitaetsindex} (max 10)
       </TooltipItem>
       <TooltipItem>
-        Überstunden: {d.Ueberstunden_zahl} Stunden/Monat
+        Overtime: {d.Ueberstunden_zahl} hours/month
       </TooltipItem>
     </Wrapper>
   );

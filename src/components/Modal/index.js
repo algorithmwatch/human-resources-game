@@ -35,7 +35,7 @@ const Modal = ({ onClose = () => {}, title = '', text = '' }) => {
         <Title dangerouslySetInnerHTML={{ __html: title }} />
         <Text dangerouslySetInnerHTML={{ __html: text }} />
       </ModalContent>
-      <Button onClick={onClose}>Alles klar, ich bin bereit!</Button>
+      <Button onClick={onClose}>Okay, I'm ready!</Button>
     </ModalContainer>
   );
 };

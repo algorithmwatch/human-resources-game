@@ -39,34 +39,25 @@ const App = () => {
       <Intro>
         <Headline>HR PUZZLE</Headline>
         <Subline>
-          Ein Erklärspiel zu Machine Learning ("Künstliche Intelligenz") im
-          Personalmangment (HR, Human Resources)
+          A simulation on machine learning in human resources (HR) management
         </Subline>
         <IntroBox>
           <IntroContent>
             <Text>
               <p>
-                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen die Funktionsweise von Machine Learning und Neuronalen Netzen;
-                zum anderen, wie viele Angebote von Personalmanagement Software heutzutage funktionieren. Das HR Puzzle ist Teil des Dossiers von AlgorithmWatch zu 
-                „<a href="https://algorithmwatch.org/project/auto-hr/" target="blank">Automatisiertem Personalmanagement und Mitbestimmung</a>“.
+              With the HR Puzzle we want to clarify two things: Firstly, how machine learning and neural networks work; secondly, how many human resources software solutions work today. The HR Puzzle is part of AlgorithmWatch's dossier on "<a href="https://algorithmwatch.org/en/project/auto-hr/" target="blank">Automated Human Resources Management and Labor Rights</a>”.
               </p>
 
               <p>
-                In dem Spiel müssen Sie ein Neuronalem Netz nachjustieren und ihm in drei Runden helfen
-                unseren 100 Mitarbeiter*innen zu erkennen: Wer sollte befördert werden? Wer hat vor zu kündigen?
-                Wen kann man entlassen?
+              In the game you have to adjust various parameters in a neural network and optimize them for our 100 employees: Who should be promoted? Who intends to resign? Who can be dismissed?
               </p>
 
               <p>
-                In dem Spiel müssen Sie verschiedene Parameter in einem Neuronalen Netz justieren und für unsere 100 Mitarbeiter*innen optimieren: Wer sollte befördert werden? Wer beabsichtigt zu kündigen? Wen kann man entlassen?
-              </p>
-
-              <p>
-                Erfahren Sie mehr zum Hintergrund über den Menüpunkt „Info“. Unter „Experimentieren“ können Sie das Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene Szenarien modellieren. Oder beginnen Sie mit „Puzzle starten“ und lösen Sie in wenigen Minuten drei Aufgaben.
+              Learn more about the processes via the menu item "Info". Under "Experiment", you can edit the neural network without time pressure and model different scenarios. Or begin with "Start puzzle" and solve three tasks in a few minutes.
               </p>
             </Text>
             <Link to="/game">
-              <Button>Puzzle starten</Button>
+              <Button>Start puzzle</Button>
             </Link>
           </IntroContent>
         </IntroBox>

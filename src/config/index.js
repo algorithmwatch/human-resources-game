@@ -15,46 +15,46 @@ const config = {
   },
   routes: [
     { label: "Start", href: "/" },
-    { label: "Spiel", href: "/game" },
-    { label: "Experimentieren", href: "/sandbox" },
+    { label: "Game", href: "/game" },
+    { label: "Experiment", href: "/sandbox" },
     { label: "Info", href: "/info" },
-    //  { label: 'English', href: 'https://algorithmwatch.org/hrpuzzle-en' },>
+    { label: 'German', href: 'https://algorithmwatch.org/hrpuzzle' },
   ],
   rounds: [
     {
-      title: "Runde 1",
-      short: "Aufgabe 1: Wer sollte befördert werden?",
+      title: "Round 1",
+      short: "Challenge 1: Who should be promoted?",
       introduction:
-        '<p>Helfen Sie mit, das Neuronale Netz des Personalmanagement-Tools zu optimieren. Die fünf dunkelgelb markierten Kreise stellen Mitarbeiter·innen dar, <b>die befördert werden sollten</b>.</p><p>Sie müssen von Ihnen auf der Skala in das rechte Zielfeld bewegt werden - <b>es sollen sich alleine diese Kreise im Zielfeld befinden</b>. Nutzen Sie die Schieberegler entsprechend, um die "Gewichte" an den "Kanten" des Neuronalen Netzes zu justieren.</p> <p>Achten Sie auf die Bezeichnung der Eingangsknoten links.</p><p>Vor Start der Runde haben Sie noch Zeit, sich das Puzzle anzusehen. Sobald Sie “Starten” klicken, haben Sie 30 Sekunden Zeit.</p> ',
+        '<p>Help to optimize the neural network of the HR management tool! </p><p>The five circles filled with dark yellow represent employees to be promoted. You have to move them to the right side of the scale - only these circles should be in the target field. Use the sliders accordingly to adjust the "weights" at the "edges" of the neural network - you can only move some weights.</p><p> Pay attention to the labels of the input nodes on the left.</p><p>Before starting the round you have time to look at the puzzle. Once you click "Start", you have 30 seconds.</p> ',
       result_top:
-        "<p><b>Auswertung Runde 1: Wer soll befördert werden?</b></p><p>In den Grafiken markieren die grünen Kreise die Mitarbeiter·innen, die den Vorgaben entsprechend im Ziel gelandet sind. Rot gefärbt sind diejenigen, die von Ihnen falsch dorthin bewegt wurden - diese Mitarbeiter·innen sollten nicht im Zielbereich auftauchen. Gegebenenfalls gibt es noch dunkel gelbe Kreise - die hätten eigentlich ins Ziel gehört. Bewegen Sie die Maus über die Kreise, um die Profile der jeweiligen Person zu sehen. Wenn Sie sich die beförderten Mitarbeiter anschauen, für die Sie das Neuronale Netz optimieren sollten, stellen Sie fest, dass es sich nur um Männer handelt.</p>",
+        "<p><b>Evaluation round 1: Who should be promoted?</b></p><p>In the graphics, the green circles mark the employees who you successfully moved to the target field according to the specifications. The red circles indicate those who were pushed in the wrong direction by you - these employees were not supposed to appear in the target field. There may also be dark yellow circles - they should have been in the target field, but did not reach it. Move your mouse over the circles to see the profiles of each person.</p><p>If you look at the promoted employees for whom you were supposed to optimize the neural network, you will see that they are all men. </p>",
       result_bottom:
-        "<p>Das System hat nun gelernt, was auch in breiten Teilen Gesellschaft gilt: Bei Beförderungen gehen Frauen oft leer aus. Das kann unterschiedliche Gründe haben: zum Beispiel können Frauen aufgrund der Doppelbelastung durch Beruf und häusliche Arbeit oft weniger Überstunden machen, als Männer. In historischen Daten kann sich aber auch schlicht eine offene Diskriminierung wiederspiegeln. Lernt ein neuronales Netz von solchen historischen Daten, wie in diesem Fall geschehen, so nimmt es die diskriminierenden Strukturen mit auf.</p>",
+        "<p>The system has now learned what is also true in broad sections of society: Women are often discriminated against when it comes to promotions in the workplace.</p><p>This can have different reasons. For example, due to the higher burden of work and housekeeping, women often work less overtime than men, possibly resulting in the tendency for supervisors to promote men who work more overtime over their female counterparts. However, historical data may also simply reflect open discrimination.</p><p> If a neural network learns from such historical data, as in this case, it incorporates the discriminating structures.</p>",
       time: 30,
       network: Round1Network,
     },
     {
-      title: "Runde 2",
-      short: "Aufgabe 2: Wer droht zu kündigen?",
+      title: "Round 2",
+      short: "Challenge 2: Who threatens to quit?",
       introduction:
-        "Wer droht zu kündigen? Das HR Puzzle hat die fünf Kandidat·innen noch nicht identifizeren können. Helfen Sie mit!",
+        "The HR puzzle has not been able to identify the five candidates yet. Please help us!",
       result_top:
-        "<p><b>Auswertung Runde 2: Wer droht zu kündigen?</b>Das ist im Personalmanagement eine wichtige Frage: Es geht darum, das Abwandern von sogenannten Spitzenkräften zu verhindern. Es wird nach Anzeichen gesucht, die eine mögliche Unzufriedenheit signalisieren. Etwa zu viele Überstunden oder Ausbleiben einer Gehaltserhöhung oder Beförderung. In diesem Fall optimieren Sie das System für das bekannte Muster, dass es vor allem jüngere Menschen sind, die kündigen könnten.",
+        "<p><b>Evaluation challenge 2: Who threatens to resign?</b>This is an important question in HR management. It is about preventing the brain drain of so-called top executives. Signs that signal possible dissatisfaction include too much overtime or failure to receive a pay raise or promotion. In this case, you optimized the neural network according to the familiar pattern that it is mainly younger people who might quit.",
       result_bottom:
-        "In so einem Fall kann das Neuronale Netz recht gut aus den historischen Daten über Kündigungen lernen, was die Faktoren gewesen sein können. Ob das Maschinelle Lernen klassischen statistischen Auswertungen dabei überlegen ist, bleibt dahingestellt. Auch hier gilt allerdings: Korrelation ist nicht Kausalität. Werden Faktoren erst gar nicht berücksichtigt (Gibt es flexible Arbeitszeiten? Wie ist der Verkehrsanbindung?) - sie nicht Teil des Datensatzes sind - so kann sie auch kein Machine Learning System erlernen.",
-      time: 20,
+        "In such a case, the neural network can learn quite well from the historical data on resignations and its factors. It remains to be seen whether machine learning is superior to classical statistical analysis. However, it’s important to note that correlation is not causality. If surrounding factors are not taken into account at all (Are there flexible working hours? How easily can workers commute to the office?), no machine learning System can integrate them into their algorithm.",
+      time: 30,
       network: Round2Network,
     },
     {
-      title: "Runde 3",
-      short: "Aufgabe 3: Wer sollte entlassen werden?",
+      title: "Round 3",
+      short: "Challende 3: Who should the company part with?",
       introduction:
-        "Von wem sollte sich das Unternehmen trennen? Helfen Sie mit, das Neuronale Netz so zu konfigurieren, dass es die fünf Kanditat·innen trifft, die entlassen werden sollten.",
+        "Help configure the neural network so that it selects the five candidates who should be dismissed.",
       result_top:
-        "<p><b>Auswertung Runde 3: Wer sollte entlassen werden?</b></p>Mitarbeiter·innen zu identifizieren, denen gekündigt werden sollte ist wohl mit die unangenehmste Arbeit, die im Personalmanagement ansteht. In diesem Fall zeigen die historischen Daten der Firma in unserem Puzzle, dass meist jungen Menschen gekündigt wurde.</p>",
+        "<p><b>Evaluation round 3:Who should be dismissed</b></p>Identifying employees who should be fired is likely one of the most unpleasant tasks in HR management. In this example, the historical data of the company show that mostly young people were dismissed.</p>",
       result_bottom:
-        '<p>Zwar ist das Alter kein direkter Faktor in der Berechnung des HR Puzzle. Doch können andere Faktoren als "Proxy Variablen", also Stellvertreter, dienen: So kann beispielsweise die Dauer der Betriebszugehörigkeit einen Hinweis auf das Alter geben. Jungen Leuten zu kündigen kann aufgrund deren kürzeren Kündigungsfristen Sinn ergeben. Gleichzeitig ist das die Personengruppe, die die Zukunft des Unternehmens ausmachen. Widersprüche, die auch eine Machine Learning System nicht auflösen kann.</p><p>Lesen Sie mehr über dieses Spiel unter „Info” oder im umfangreichen Dossier „<a href="https://algorithmwatch.org/project/auto-hr/">Automatiserung im Personalmanagement</a>”. Experimentieren Sie mit dem HR Puzzle oder spielen Sie das Spiel von vorne.</p>',
-      time: 20,
+        '<p>Age is not a direct factor in the calculation of the HR puzzle, but other factors can serve as "proxy variables". For example, the length of employment at the company can give an indication of age. Dismissing young people can make sense due to their shorter notice periods. At the same time, this is the group of people who define the future of the company, presenting contradictions that even a machine learning system cannot resolve.</p><p> Read more about this game under "Info" or in the extensive dossier "<a href="https://algorithmwatch.org/en/project/auto-hr/">Automation in HR management</a>”. Experiment with the HR Puzzle or play the game from the beginning.</p>',
+      time: 30,
       network: Round3Network,
     },
   ],
