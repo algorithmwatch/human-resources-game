@@ -18,7 +18,7 @@ const config = {
     { label: "Spiel", href: "/game" },
     { label: "Experimentieren", href: "/sandbox" },
     { label: "Info", href: "/info" },
-    //  { label: 'English', href: 'https://algorithmwatch.org/hrpuzzle-en' },>
+    { label: 'English', href: 'https://algorithmwatch.org/hrpuzzle-en' },>
   ],
   rounds: [
     {
