@@ -46,19 +46,32 @@ const App = () => {
           <IntroContent>
             <Text>
               <p>
-                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen die Funktionsweise von Machine Learning und Neuronalen Netzen;
-                zum anderen, wie viele Angebote von Personalmanagement Software heutzutage funktionieren. Das HR Puzzle ist Teil des Dossiers von AlgorithmWatch zu 
-                „<a href="https://algorithmwatch.org/project/auto-hr/" target="blank">Automatisiertem Personalmanagement und Mitbestimmung</a>“.
+                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen
+                die Funktionsweise von Machine Learning und Neuronalen Netzen;
+                zum anderen, wie viele Angebote von Personalmanagement Software
+                heutzutage funktionieren. Das HR Puzzle ist Teil des Dossiers
+                von AlgorithmWatch zu „
+                <a
+                  href="https://algorithmwatch.org/project/auto-hr/"
+                  target="blank"
+                >
+                  Automatisiertem Personalmanagement und Mitbestimmung
+                </a>
+                “.
               </p>
 
               <p>
-                In dem Spiel müssen Sie ein Neuronalem Netz nachjustieren und ihm in drei Runden helfen
-                unseren 100 Mitarbeiter*innen zu erkennen: Wer sollte befördert werden? Wer hat vor zu kündigen?
+                In dem Spiel müssen Sie ein Neuronalem Netz nachjustieren und
+                ihm in drei Runden helfen unseren 100 Mitarbeiter*innen zu
+                erkennen: Wer sollte befördert werden? Wer hat vor zu kündigen?
                 Wen kann man entlassen?
               </p>
 
               <p>
-                In dem Spiel müssen Sie verschiedene Parameter in einem Neuronalen Netz justieren und für unsere 100 Mitarbeiter*innen optimieren: Wer sollte befördert werden? Wer beabsichtigt zu kündigen? Wen kann man entlassen?
+                In dem Spiel müssen Sie verschiedene Parameter in einem
+                Neuronalen Netz justieren und für unsere 100 Mitarbeiter*innen
+                optimieren: Wer sollte befördert werden? Wer beabsichtigt zu
+                kündigen? Wen kann man entlassen?
               </p>
 
               <p>

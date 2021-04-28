@@ -5,7 +5,7 @@ import Simulation from '../Simulation';
 
 const SandboxWrapper = ({ width }) => {
   const initSandbox = useStoreActions(
-    actions => actions.simulation.initSandbox
+    (actions) => actions.simulation.initSandbox
   );
 
   useEffect(() => {

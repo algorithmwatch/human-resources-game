@@ -7,7 +7,8 @@
   "description": "An educational game about Machine Learning ('Artificial Intelligence') in Human Resources (HR, Human Resources)  ",
   "scripts": {
     "build": "cross-env BABEL_ENV=production webpack --config webpack/webpack.config.prod.js --colors",
-    "start": "webpack-dev-server --config webpack/webpack.config.dev.js"
+    "start": "webpack-dev-server --config webpack/webpack.config.dev.js",
+    "format": "prettier --write ."
   },
   "repository": {
     "url": "git@github.com:algorithmwatch/hr-game.git",
