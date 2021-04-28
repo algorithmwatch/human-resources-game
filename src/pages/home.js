@@ -62,7 +62,13 @@ const App = () => {
               </p>
 
               <p>
-                Erfahren Sie mehr zum Hintergrund über den Menüpunkt „Info“. Unter „Experimentieren“ können Sie das Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene Szenarien modellieren. Oder beginnen Sie mit „Puzzle starten“ und lösen Sie in wenigen Minuten drei Aufgaben.
+                Erfahren Sie mehr zum Hintergrund über den Menüpunkt{' '}
+                <Link to="/info">Info</Link>. Unter{' '}
+                <Link to="/sandbox">Experimentieren</Link> können Sie das
+                Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene
+                Szenarien modellieren. Oder beginnen Sie mit{' '}
+                <Link to="/game">Puzzle starten</Link> und lösen Sie in wenigen
+                Minuten drei Aufgaben.
               </p>
             </Text>
             <Link to="/game">
