@@ -19,6 +19,9 @@ const HeaderWrapper = styled.div`
 
 const AWLogoWrapper = styled.div`
   margin-left: auto;
+
+  display: flex;
+  align-items: center;
 `;
 
 const Header = () => (
@@ -26,7 +29,13 @@ const Header = () => (
     <Logo />
     <Nav />
     <AWLogoWrapper>
-      <AWLogo />
+      <div>von</div>
+      <div style={{ padding: '1rem' }}>
+        <img
+          src="https://static.algorithmwatch.org/gfx/aw-logo.svg"
+          height={50}
+        />
+      </div>
     </AWLogoWrapper>
   </HeaderWrapper>
 );

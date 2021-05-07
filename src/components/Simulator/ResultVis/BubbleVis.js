@@ -51,7 +51,14 @@ const chartConfigs = {
   },
 };
 
-const BubbleVis = ({ width, height, transform, data, type }) => {
+const BubbleVis = ({ width, height, transform, data, type, isSandbox }) => {
+  /* HOTFIX
+
+    1) make the graph stable by only running the force simulation once (via `chartData`)
+    2) select the top 5 nodes (by weight) and use an anotation (and not the color) to mark them
+    3) enable the hotfix only when using this component in the sandbox results view
+    */
+
   const chartData = useMemo(
     () =>
       data
@@ -59,9 +66,14 @@ const BubbleVis = ({ width, height, transform, data, type }) => {
         .sort((a, b) => a.weight - b.weight)
         .map((d, i) => ({
           ...d,
-          color: getBubbleColor(d),
+          color: isSandbox ? theme.colors.secondary_light : getBubbleColor(d),
         })),
-    [data]
+    []
+  );
+
+  const highest = data.sort((a, b) => b.weight - a.weight).slice(0, 5);
+  const highestIndices = highest.map((x) =>
+    chartData.indexOf(chartData.filter((cd) => x.Name === cd.Name)[0])
   );
 
   const config = chartConfigs[type];
@@ -81,7 +93,7 @@ const BubbleVis = ({ width, height, transform, data, type }) => {
         data={chartData}
         spacing={0}
         size={15}
-        simulationIterations={60}
+        simulationIterations={20}
         margin={{
           top: 20,
           right: 40,
@@ -95,6 +107,14 @@ const BubbleVis = ({ width, height, transform, data, type }) => {
         enableGridX={false}
         enableGridY={false}
         tooltip={(d) => getContent(JSON.stringify(d.node.data))}
+        annotations={
+          isSandbox
+            ? highestIndices.map((x, i) => ({
+                type: 'circle',
+                match: { index: x },
+              }))
+            : []
+        }
         {...config}
       />
     </g>

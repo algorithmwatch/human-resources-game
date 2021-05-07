@@ -27,7 +27,7 @@ const margin = {
   left: 10,
 };
 
-const ResultVis = () => {
+const ResultVis = ({ isSandbox = false }) => {
   const data = useStoreState((state) => state.simulation.outputData);
   const [containerRef, { width = 100 }] = useDimensions();
   const height = 200;
@@ -44,6 +44,7 @@ const ResultVis = () => {
           width={innerWidth / 3}
           height={innerHeight}
           type="age"
+          isSandbox={isSandbox}
         />
         <BubbleVis
           transform={translate(0, 0)}
@@ -51,6 +52,7 @@ const ResultVis = () => {
           width={innerWidth / 3}
           height={innerHeight}
           type="gender"
+          isSandbox={isSandbox}
         />
         <BubbleVis
           transform={translate(0, 0)}
@@ -58,8 +60,15 @@ const ResultVis = () => {
           width={innerWidth / 3}
           height={innerHeight}
           type="education"
+          isSandbox={isSandbox}
         />
       </ChartWrapper>
+      <div style={{ textAlign: 'center', color: 'grey' }}>
+        <small>
+          Bewegen Sie den Mauszeiger über die Punkte um mehr über die Personen
+          zu erfahren.
+        </small>
+      </div>
     </DivWrapper>
   );
 };

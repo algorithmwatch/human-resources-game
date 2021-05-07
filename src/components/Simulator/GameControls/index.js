@@ -21,6 +21,22 @@ const FullWidthButton = styled(Button)`
   width: 200px;
 `;
 
+const FullWidthButtonGlowing = styled(Button)`
+  @keyframes glowing {
+    0% {
+      filter: brightness(100%);
+      box-shadow: 0 0 10px #ee9e35;
+    }
+    100% {
+      filter: brightness(110%);
+      box-shadow: 0 0 20px #ee9e35;
+    }
+  }
+  animation: glowing 800ms infinite;
+  animation-direction: alternate;
+  width: 200px;
+`;
+
 const GameControls = () => {
   const isRunning = useStoreState((state) => state.simulation.isRunning);
   const finishSimulation = useStoreActions(
@@ -55,9 +71,9 @@ const GameControls = () => {
         onFinish={() => finishSimulation()}
       />
       {showStartButton && (
-        <FullWidthButton onClick={() => startSimulation()}>
-          Start
-        </FullWidthButton>
+        <FullWidthButtonGlowing onClick={() => startSimulation()}>
+          Starten
+        </FullWidthButtonGlowing>
       )}
       {showResultButton && (
         <FullWidthButton onClick={() => setResultVisible(true)}>

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default styled.button`
   color: #000000;
-  background: #EE9E35;
+  background: #ee9e35;
   padding: 20px;
   font-size: 14px;
   font-weight: 600;

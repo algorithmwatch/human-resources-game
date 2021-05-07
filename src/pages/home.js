@@ -43,17 +43,38 @@ const App = () => {
         </Subline>
         <IntroBox>
           <IntroContent>
+            <img
+              src="/public/random.png"
+              width="100%"
+              alt="Random"
+              style={{ marginBottom: '40px' }}
+            />
             <Text>
               <p>
-              With the HR Puzzle we want to clarify two things: Firstly, how machine learning and neural networks work; secondly, how many human resources software solutions work today. The HR Puzzle is part of AlgorithmWatch's dossier on "<a href="https://algorithmwatch.org/en/project/auto-hr/" target="blank">Automated Human Resources Management and Labor Rights</a>”.
+                With the HR Puzzle we want to clarify two things: Firstly, how
+                machine learning and neural networks work; secondly, how many
+                human resources software solutions work today. The HR Puzzle is
+                part of AlgorithmWatch's dossier on "
+                <a
+                  href="https://algorithmwatch.org/en/project/auto-hr/"
+                  target="blank"
+                >
+                  Automated Human Resources Management and Labor Rights
+                </a>
+                ”.
               </p>
 
               <p>
-              In the game you have to adjust various parameters in a neural network and optimize them for our 100 employees: Who should be promoted? Who intends to resign? Who can be dismissed?
+                In the game you have to adjust various parameters in a neural
+                network and optimize them for our 100 employees: Who should be
+                promoted? Who intends to resign? Who can be dismissed?
               </p>
 
               <p>
-              Learn more about the processes via the menu item "Info". Under "Experiment", you can edit the neural network without time pressure and model different scenarios. Or begin with "Start puzzle" and solve three tasks in a few minutes.
+                Learn more about the processes via the menu item "Info". Under
+                "Experiment", you can edit the neural network without time
+                pressure and model different scenarios. Or begin with "Start
+                puzzle" and solve three tasks in a few minutes.
               </p>
             </Text>
             <Link to="/game">

@@ -1,19 +1,13 @@
-# React Starterkit
+# `hr-game`
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/react-starter?icon=dependabot)](https://dependabot.com/)
+An educational game about Machine Learning ("Artificial Intelligence") in Human Resources (HR, Human Resources).
 
-**A minimal starting point for your react projects including:**
+Based on [webkid's React Starterkit](https://github.com/wbkd/react-starter):
 
 - [react](https://facebook.github.io/react/)
 - [easy-peasy](https://easy-peasy.now.sh/)
 - [styled-components](https://www.styled-components.com/)
 - [rebass](https://rebassjs.org/)
-
-## Get the kit
-
-```sh
-git clone git@github.com:wbkd/react-starter.git && cd react-starter
-```
 
 ## Installation
 
@@ -41,4 +35,3 @@ npm run build
 ## Contribute
 
 Feel free to dive in! [Open an issue](https://github.com/wbkd/react-starter/issues/new) or submit a [pull request](https://github.com/wbkd/react-starter/pulls/).
-# hr_sim

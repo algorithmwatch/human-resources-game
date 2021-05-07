@@ -3,14 +3,11 @@ import styled from 'styled-components';
 import { scalePow } from 'd3-scale';
 
 const EdgePath = styled.path`
-  stroke: ${p =>
+  stroke: ${(p) =>
     p.isControlled ? p.theme.colors.grey2 : p.theme.colors.grey1};
 `;
 
-const strokeWidthScale = scalePow()
-  .domain([-1, 1])
-  .exponent(2)
-  .range([1, 4]);
+const strokeWidthScale = scalePow().domain([-1, 1]).exponent(2).range([1, 4]);
 
 const Edge = ({
   sourceX = 0,

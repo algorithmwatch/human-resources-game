@@ -1,17 +1,17 @@
-import Round1Network from "./round1.json";
-import Round2Network from "./round2.json";
-import Round3Network from "./round3.json";
-import SandboxNetwork from "./sandbox.json";
+import Round1Network from './round1.json';
+import Round2Network from './round2.json';
+import Round3Network from './round3.json';
+import SandboxNetwork from './sandbox.json';
 
 const config = {
-  basename: process.env.NODE_ENV === "production" ? "/hrpuzzle" : "",
+  basename: process.env.NODE_ENV === 'production' ? '/hrpuzzle' : '',
 
-  mobileRedirect: "https://algorithmwatch.org/hr-puzzle-mobile",
+  mobileRedirect: 'https://algorithmwatch.org/hr-puzzle-mobile',
 
   meta: {
-    description: "HR Puzzle",
-    viewport: "width=device-width, initial-scale=1",
-    robots: "noindex,nofollow",
+    description: 'HR Puzzle',
+    viewport: 'width=device-width, initial-scale=1',
+    robots: 'noindex,nofollow',
   },
   routes: [
     { label: "Start", href: "/" },

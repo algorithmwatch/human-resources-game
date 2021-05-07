@@ -4,7 +4,7 @@ import { useStoreState } from 'easy-peasy';
 import Button from '~/components/Button';
 
 const ExportButton = () => {
-  const network = useStoreState(state => state.simulation.networkData);
+  const network = useStoreState((state) => state.simulation.networkData);
 
   const printState = () => {
     console.log(JSON.stringify(network, null, 2));
