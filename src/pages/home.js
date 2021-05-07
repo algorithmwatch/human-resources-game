@@ -44,6 +44,12 @@ const App = () => {
         </Subline>
         <IntroBox>
           <IntroContent>
+            <img
+              src="/public/random.png"
+              width="100%"
+              alt="Random"
+              style={{ marginBottom: '40px' }}
+            />
             <Text>
               <p>
                 Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen
