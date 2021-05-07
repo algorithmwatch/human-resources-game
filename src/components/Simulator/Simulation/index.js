@@ -44,6 +44,7 @@ const Simulation = ({ width, sandbox = false }) => {
           minWeight={data.min}
           width={width}
           height={160}
+          isSandbox
         />
       ) : (
         <OutputGraph
