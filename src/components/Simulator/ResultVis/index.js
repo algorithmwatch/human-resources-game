@@ -63,6 +63,12 @@ const ResultVis = ({ isSandbox = false }) => {
           isSandbox={isSandbox}
         />
       </ChartWrapper>
+      <div style={{ textAlign: 'center', color: 'grey' }}>
+        <small>
+          Bewegen Sie den Mauszeiger über die Punkte um mehr über die Personen
+          zu erfahren.
+        </small>
+      </div>
     </DivWrapper>
   );
 };
