@@ -29,6 +29,18 @@ const Info = () => (
           Kriterium genau besteht, können Menschen nicht auflisten.
         </p>
 
+        <div align="center" style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2i00W59V1-w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
         <p>
           Machine Learning kann ein solches kompliziertes Kriterium finden, wenn
           man ihm genug Beispielbilder zum „Lernen“ gibt und ungefähr sagt,
@@ -55,6 +67,8 @@ const Info = () => (
           funktioniert es nicht. Mit Hilfe dieser Vorgabe gibt man Vorwissen –
           oder besser: eine Vormeinung – in das Verfahren ein.
         </p>
+
+        <h3>Eine Überschrift</h3>
 
         <p>
           Der sogenannte Trainings-Algorithmus sucht aus diesen Kriterien eines
@@ -99,6 +113,8 @@ const Info = () => (
           Die Funktionsweise der Personalmanagement-Anwendung orientiert sich an
           bereits auf dem Markt existierenden Angeboten.
         </p>
+
+        <h3>Eine Überschrift</h3>
 
         <p>
           Machine Learning und Neuronale Netze, eine Anwendung aus dem Machine
