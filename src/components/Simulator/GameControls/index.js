@@ -72,7 +72,7 @@ const GameControls = () => {
       />
       {showStartButton && (
         <FullWidthButtonGlowing onClick={() => startSimulation()}>
-          Starten
+          Start
         </FullWidthButtonGlowing>
       )}
       {showResultButton && (
