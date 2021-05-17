@@ -65,8 +65,7 @@ const ResultVis = ({ isSandbox = false }) => {
       </ChartWrapper>
       <div style={{ textAlign: 'center', color: 'grey' }}>
         <small>
-          Bewegen Sie den Mauszeiger über die Punkte um mehr über die Personen
-          zu erfahren.
+          Move the mouse pointer over the dots to learn more about the people.
         </small>
       </div>
     </DivWrapper>

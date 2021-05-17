@@ -39,7 +39,7 @@ const chartConfigs = {
   },
   gender: {
     title: 'Gender',
-    groupBy: 'Geschlecht',
+    groupBy: 'Gender',
     groups: ['female', 'male'],
     value: 'nivo_position',
   },
