@@ -44,7 +44,7 @@ const App = () => {
         <IntroBox>
           <IntroContent>
             <img
-              src="/public/random.png"
+              src="public/random.png"
               width="100%"
               alt="Random"
               style={{ marginBottom: '40px' }}
