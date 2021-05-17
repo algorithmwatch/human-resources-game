@@ -7,7 +7,7 @@
       "nodes": [
         {
           "name": "layer1__node2",
-          "propertyName": "Education",
+          "propertyName": "Ausbildung",
           "edges": [
             {
               "weight": 0.83,
@@ -32,7 +32,7 @@
         },
         {
           "name": "layer1__node4",
-          "propertyName": "Employment duration",
+          "propertyName": "Betriebszugehörigkeit",
           "edges": [
             {
               "weight": -0.47,
@@ -57,7 +57,7 @@
         },
         {
           "name": "layer1__node5",
-          "propertyName": "Last raise",
+          "propertyName": "Letzte Gehaltserhöhung",
           "edges": [
             {
               "weight": 0.55,
@@ -82,7 +82,7 @@
         },
         {
           "name": "layer1__node6",
-          "propertyName": "Overtime",
+          "propertyName": "Überstunden",
           "edges": [
             {
               "weight": -0.3,
@@ -107,7 +107,7 @@
         },
         {
           "name": "layer1__node7",
-          "propertyName": "Activity on the company intranet",
+          "propertyName": "Aktivität im Firmen-Intranet",
           "edges": [
             {
               "weight": 0.49,
