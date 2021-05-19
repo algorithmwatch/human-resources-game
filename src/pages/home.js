@@ -39,60 +39,39 @@ const App = () => {
       <Intro>
         <Headline>HR PUZZLE</Headline>
         <Subline>
-          Ein Erklärspiel zu Machine Learning ("Künstliche Intelligenz") im
-          Personalmangment (HR, Human Resources)
+          Ein Erklärspiel zu Machine Learning ("KI") im
+          Personalmangment (HR)
         </Subline>
         <IntroBox>
           <IntroContent>
             <img
-              src="public/random.png"
+              src="/public/startde.png"
               width="100%"
               alt="Random"
               style={{ marginBottom: '40px' }}
             />
             <Text>
               <p>
-                Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen
-                die Funktionsweise von Machine Learning und Neuronalen Netzen;
-                zum anderen, wie viele Angebote von Personalmanagement Software
-                heutzutage funktionieren. Das HR Puzzle ist Teil des Dossiers
-                von AlgorithmWatch zu „
-                <a
-                  href="https://algorithmwatch.org/project/auto-hr/"
-                  target="blank"
-                >
-                  Automatisiertem Personalmanagement und Mitbestimmung
-                </a>
-                “.
+                In dem Spiel müssen Sie ein Neuronales Netz nachjustieren und ihm in drei Runden helfen, Vorhersagen über 100 Mitarbeiter·innen zu treffen: Wer sollte befördert werden? Wer hat vor zu kündigen? Wen kann man entlassen?
               </p>
+                <p>
+                  Über den Menüpunkt "Info" können Sie mehr zum Hintergrund des Puzzles erfahren. Unter "Experimentieren" können Sie das Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene Szenarien modellieren. Oder beginnen Sie mit "Puzzle starten" und lösen Sie in wenigen Minuten drei Aufgaben.
+                </p>
 
-              <p>
-                In dem Spiel müssen Sie ein Neuronalem Netz nachjustieren und
-                ihm in drei Runden helfen unseren 100 Mitarbeiter*innen zu
-                erkennen: Wer sollte befördert werden? Wer hat vor zu kündigen?
-                Wen kann man entlassen?
-              </p>
-
-              <p>
-                In dem Spiel müssen Sie verschiedene Parameter in einem
-                Neuronalen Netz justieren und für unsere 100 Mitarbeiter*innen
-                optimieren: Wer sollte befördert werden? Wer beabsichtigt zu
-                kündigen? Wen kann man entlassen?
-              </p>
-
-              <p>
-                Erfahren Sie mehr zum Hintergrund über den Menüpunkt{' '}
-                <Link to="/info">Info</Link>. Unter{' '}
-                <Link to="/sandbox">Experimentieren</Link> können Sie das
-                Neuronale Netz ohne Zeitdruck justieren und dabei verschiedene
-                Szenarien modellieren. Oder beginnen Sie mit{' '}
-                <Link to="/game">Puzzle starten</Link> und lösen Sie in wenigen
-                Minuten drei Aufgaben.
-              </p>
             </Text>
-            <Link to="/game">
-              <Button>Puzzle starten</Button>
-            </Link>
+              <Link to="/game">
+                <Button>Puzzle starten</Button>
+              </Link>
+            <Text>
+
+
+              <p>Mit dem HR Puzzle wollen wir zwei Dinge verdeutlichen: Zum einen wie Machine Learning und Neuronalen Netze funktionieren; zum anderen wie manche Angebote von Personalmanagement-Software heutzutage arbeiten. Das HR Puzzle ist Teil des Dossiers von AlgorithmWatch zu
+              <a
+                href="https://algorithmwatch.org/de/auto-hr/"
+                target="blank"
+              > Automatisiertes Personalmanagement und Mitbestimmung</a>  </p>
+            </Text>
+
           </IntroContent>
         </IntroBox>
       </Intro>
