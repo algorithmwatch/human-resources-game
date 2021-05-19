@@ -45,10 +45,10 @@ const App = () => {
         <IntroBox>
           <IntroContent>
             <img
-              src="/public/startde.png"
+              src="https://algorithmwatch.org/de/hrpuzzle/public/startde.png"
               width="100%"
               alt="Random"
-              style={{ marginBottom: '40px' }}
+              style={{ marginBottom: '5px' }}
             />
             <Text>
               <p>
