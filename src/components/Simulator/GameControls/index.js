@@ -24,7 +24,7 @@ const FullWidthButton = styled(Button)`
 const FullWidthButtonGlowing = styled(Button)`
   @keyframes glowing {
     0% {
-      filter: brightness(100%);
+      filter: brightness(90%);
       box-shadow: 0 0 10px #ee9e35;
     }
     100% {
