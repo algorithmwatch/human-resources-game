@@ -6,7 +6,7 @@ import SandboxNetwork from './sandbox.json';
 const config = {
   basename: process.env.NODE_ENV === 'production' ? '/en/hrpuzzle' : '',
 
-  mobileRedirect: 'https://algorithmwatch.org/en/auto-hr/hr-puzzle-mobile',
+  mobileRedirect: 'https://algorithmwatch.org/en/auto-hr/hrpuzzle-mobile',
 
   meta: {
     description: 'HR Puzzle',

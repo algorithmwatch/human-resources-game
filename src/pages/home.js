@@ -39,7 +39,7 @@ const App = () => {
       <Intro>
         <Headline>HR PUZZLE</Headline>
         <Subline>
-          A simulation on Machine Learning in human resources (HR) management
+          A Simulation on Machine Learning in Human Resources (HR) management
         </Subline>
         <IntroBox>
           <IntroContent>
@@ -55,8 +55,7 @@ const App = () => {
                 <a
                   href="https://algorithmwatch.org/en/project/auto-hr/"
                   target="blank"
-                >
-                  Automated Human Resources Management and Labor Rights
+                > Automated Human Resources Management and Labor Rights
                 </a>
                 ”.
               </p>
