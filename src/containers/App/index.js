@@ -20,7 +20,7 @@ const App = () => {
     <BrowserRouter basename={config.basename}>
       <Prompt
         when={showPrompt}
-        message="Sind Sie sicher, dass Sie das Spiel verlassen wollen? Der Fortschritt wird nicht gespeichert."
+        message="Are you sure, you want to leave the game? Your progess is not saved."
       />
       <Header />
       <Route path="/game" exact component={Backdrop} />

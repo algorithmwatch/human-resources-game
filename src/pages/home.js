@@ -39,22 +39,19 @@ const App = () => {
       <Intro>
         <Headline>HR PUZZLE</Headline>
         <Subline>
-          A simulation on machine learning in human resources (HR) management
+          A simulation on Machine Learning in human resources (HR) management
         </Subline>
         <IntroBox>
           <IntroContent>
             <img
-              src="public/random.png"
+              src="https://algorithmwatch.org/en/hrpuzzle/public/starten.png"
               width="100%"
-              alt="Random"
-              style={{ marginBottom: '40px' }}
+              alt="Overview"
+              style={{ marginBottom: '5px' }}
             />
             <Text>
               <p>
-                With the HR Puzzle we want to clarify two things: Firstly, how
-                machine learning and neural networks work; secondly, how many
-                human resources software solutions work today. The HR Puzzle is
-                part of AlgorithmWatch's dossier on "
+                With the HR Puzzle we want to illustrate two things: Firstly, how Machine Learning and neural networks work; secondly, how many human resources software solutions work today. The HR Puzzle is part of AlgorithmWatch's dossier on"
                 <a
                   href="https://algorithmwatch.org/en/project/auto-hr/"
                   target="blank"
@@ -63,23 +60,20 @@ const App = () => {
                 </a>
                 ”.
               </p>
-
+            </Text>
+              <Link to="/game">
+                <Button>Start puzzle</Button>
+              </Link>
+            <Text>
               <p>
-                In the game you have to adjust various parameters in a neural
-                network and optimize them for our 100 employees: Who should be
-                promoted? Who intends to resign? Who can be dismissed?
+                In the game you have to adjust various parameters in a neural network and optimize them for 100 employees: Who should be promoted? Who intends to resign? Who can be dismissed?
               </p>
 
               <p>
-                Learn more about the processes via the menu item "Info". Under
-                "Experiment", you can edit the neural network without time
-                pressure and model different scenarios. Or begin with "Start
-                puzzle" and solve three tasks in a few minutes.
+                Learn more about the processes via the menu item "Info". Under "Experiment", you can edit the neural network without time pressure and model different scenarios. Or begin with "Start puzzle" and solve three tasks in a few minutes.
               </p>
             </Text>
-            <Link to="/game">
-              <Button>Start puzzle</Button>
-            </Link>
+
           </IntroContent>
         </IntroBox>
       </Intro>

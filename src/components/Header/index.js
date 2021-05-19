@@ -29,11 +29,11 @@ const Header = () => (
     <Logo />
     <Nav />
     <AWLogoWrapper>
-      <div>von</div>
+      <div>by</div>
       <div style={{ padding: '1rem' }}>
         <img
           src="https://static.algorithmwatch.org/gfx/aw-logo.svg"
-          height={50}
+          height={38}
         />
       </div>
     </AWLogoWrapper>
