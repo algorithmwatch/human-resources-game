@@ -13,7 +13,7 @@ const StepNav = ({ sandbox }) => {
   const roundConfig = useStoreState((state) => state.simulation.roundConfig);
 
   const label = sandbox
-    ? 'In the sandbox below you can click on each node (green circle) to edit the respective edge. At the bottom the top 10 hits are marked.'
+    ? 'Click on a node (blue circle) to edit its edges. The top 5 hits are highlighted at the bottom.'
     : roundConfig.short;
 
   return (
