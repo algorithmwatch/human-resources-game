@@ -36,7 +36,7 @@ export const getContent = (data) => {
         Last raise: {d.Letzte_Gehaltserhoehung} months ago
       </TooltipItem>
       <TooltipItem>
-        Last promotion: {d.Letzte_Befoerderung} months agoo
+        Last promotion: {d.Letzte_Befoerderung} months ago
       </TooltipItem>
       <TooltipItem>
         Intranet activity: {d.Aktivitaetsindex} (max 10)

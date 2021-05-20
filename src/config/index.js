@@ -18,14 +18,14 @@ const config = {
     { label: "Game", href: "/game" },
     { label: "Experiment", href: "/sandbox" },
     { label: "Info", href: "/info" },
-    { label: 'German', href: 'https://algorithmwatch.org/de/hrpuzzle' },
+    { label: 'Deutsch', href: 'https://algorithmwatch.org/de/hrpuzzle' },
   ],
   rounds: [
     {
       title: "Round 1",
       short: "Challenge 1: Who should get promoted?",
       introduction:
-        '<p>Who should get promoted? Help to optimize the neural network of the HR management tool!</p><p>The  circles filled with dark yellow represent employees to be promoted. You have to move them to the right side of the scale - five green circles should be in the target field at the end.</p><p><img src="https://algorithmwatch.org/en/hrpuzzle/public/goal.png" width="500px"></p> Use the sliders accordingly to adjust the "weights" at the "edges" of the neural network - you can only move some of the weights.</p><p>Pay attention to the labels of the input nodes on the left.</p><p>Before starting the round you have time to look at the puzzle. Once you click "Start", you have 30 seconds to complete it.</p> ',
+        '<p>Who should get promoted? Help to optimize the neural network of the HR management tool!</p><p>The  circles filled with dark yellow represent employees to be promoted. You have to move them to the right side of the scale - five green circles should be in the target field at the end.</p><p><img src="https://algorithmwatch.org/en/hrpuzzle/public/goalen.png" width="450px"></p><p>Use the sliders accordingly to adjust the "weights" at the "edges" of the neural network - you can only move some of the weights.</p><p>Pay attention to the labels of the input nodes on the left.</p><p><img src="https://algorithmwatch.org/en/hrpuzzle/public/neuralen.png" width="450px"></p><p>Before starting the round you have time to look at the puzzle. Once you click "Start", you have 30 seconds to complete it.</p> ',
       result_top:
         "<p><b>Evaluation round 1: Who should be promoted?</b></p><p>In the graphics, the green circles mark the employees who you successfully moved to the target field according to the specifications. The red circles indicate those who were pushed in the wrong direction by you - these employees were not supposed to appear in the target field. There may also be dark yellow circles - they should have been in the target field, but did not reach it. Move your mouse over the circles to see the profiles of each person.</p><p>If you look at the promoted employees for whom you were supposed to optimize the neural network, you will see that they are all men.</p>",
       result_bottom:
